@@ -21,7 +21,10 @@
         umlaut_a: umlaut_a {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_ALT &kp Q>;
+            bindings
+                = <¯o_press &kp RIGHT_ALT>
+                , <¯o_tap &kp Q>
+                , <¯o_release &kp RIGHT_ALT>;
             label = "UMLAUT_A";
         };
     };
