@@ -16,15 +16,6 @@
 #define extra_layer 4
 
 / {
-    macros {
-        umlaut_ae: umlaut_ae {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <>;
-            label = "UMLAUT_AE";
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
